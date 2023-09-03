@@ -70,7 +70,7 @@ header {
 
 .title-one {
   color: var(--WHITE, #fff);
-  text-align: center;
+
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
@@ -126,7 +126,6 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
 }
 
 .team-list {
