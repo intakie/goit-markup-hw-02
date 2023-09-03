@@ -72,6 +72,7 @@ header {
   letter-spacing: 1.12px;
   margin: 0px 472px 48px 472px;
   padding-top: 188px;
+  width: 496px;
 }
 
 button {
@@ -194,4 +195,118 @@ h3 {
 
 .profile {
   padding-bottom: 32px;
+}
+
+.portfolio {
+  width: 1128px;
+  height: 1000px;
+  flex-shrink: 0;
+}
+
+.title4 {
+  /* margin: 61px 611px 72px 611px; */
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  margin-left: 400px;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.row1 {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  margin: 72px 156px 48px 156px;
+  padding-bottom: 48px;
+}
+
+.row2 {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  margin: 48px 156px 120px 156px;
+}
+
+.portfolio-list {
+  flex-direction: column;
+}
+
+.portfolio-list-item {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+
+.portfolio-img {
+  padding-bottom: 32px;
+}
+
+.sphere {
+  padding-bottom: 32px;
+}
+
+.portfolio-text {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.logo-text {
+  color: var(--CLOUD, #f4f4fd);
+  width: 264px;
+  margin: 16px 1020px 100px 156px;
+}
+
+footer {
+  margin-top: 120px;
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.logo1 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 100px 1169px 0px 156px;
+}
+
+.studio-logo {
+  display: flex;
+  width: 71px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
