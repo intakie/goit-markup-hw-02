@@ -60,9 +60,9 @@ ul {
   color: #404bbf;
 }
 
-header {
+/* header {
   margin-bottom: 24px;
-}
+} */
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -76,14 +76,14 @@ header {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin: 0px 472px 48px 472px;
+  /* margin: 0px 472px 48px 472px; */
   text-align: center;
 }
 
 .buy {
   background: var(--IRIS, #4d5ae5);
 
-  margin: 0px 635px 188px 636px;
+  /* margin: 0px 635px 188px 636px; */
   color: var(--WHITE, #fff);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -92,17 +92,17 @@ header {
   cursor: pointer;
 }
 
-.order:hover {
+.buy:hover {
   background-color: #404bbf;
 }
 
-.order:focus {
+.buy:focus {
   background-color: #404bbf;
 }
 
-.solution {
+/* .solution {
   margin: 0px 156px 120px 156px;
-}
+} */
 
 h3 {
   font-family: Roboto;
@@ -110,7 +110,7 @@ h3 {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .team {
@@ -129,10 +129,10 @@ h3 {
   text-transform: capitalize;
   text-align: center;
 }
-
+/* 
 .team-list {
   margin: 72px 156px 120px 156px;
-}
+} */
 
 .team-list-item {
   background: var(--WHITE, #fff);
@@ -177,13 +177,13 @@ h3 {
   text-align: center;
 }
 
-.row1 {
+/* .row1 {
   margin: 72px 156px 48px 156px;
 }
 
 .row2 {
   margin: 48px 156px 120px 156px;
-}
+} */
 
 .portfolio-list-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -193,7 +193,7 @@ h3 {
 .logo-text {
   color: var(--CLOUD, #f4f4fd);
 
-  margin: 16px 1020px 100px 156px;
+  /* margin: 16px 1020px 100px 156px; */
 }
 
 footer {
@@ -209,11 +209,10 @@ footer {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 
-  margin: 100px 1169px 0px 156px;
+  /* margin: 100px 1169px 0px 156px; */
 }
 
 .studio-logo {
-  justify-content: center;
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
